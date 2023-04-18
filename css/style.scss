@@ -1,0 +1,58 @@
+.item-block {
+    text-align: center;
+    font-family: "PT Sans";
+    max-width: 300px;
+    border-radius: 7px;
+    color: white;
+    line-height: 26px;
+    &-body {
+        padding: 25px 30px 25px 30px;
+    }
+    &-head {        
+        font-weight: 700;
+        font-size: 26px;
+    }
+    &-text {
+        font-size: 18px;
+        line-height: 19px;
+    }
+    &-button {  
+        display: block;
+        padding: 14px 0px;
+        width: 100%;
+        max-width: 252px;
+        font-size: 19px;
+        text-align: center;
+        border: none;
+        border-radius: 7px;
+        text-decoration: none;
+        font-weight: 700;
+        &:hover {
+            box-shadow: -1px 6px 8px 0px rgba(34, 60, 80, 0.2);
+        }
+    }
+}
+
+.tg {
+    background: rgba(0, 157, 216, 1.0);
+    background: linear-gradient(225deg, rgba(0, 157, 216, 1.0), rgba(0, 171, 233, 1.0));
+    .button {
+        background: white;
+        color: rgb(0, 157, 216);
+    }
+}
+.gram {
+    background: rgba(254, 52, 144, 1.0);
+    background: linear-gradient(225deg, rgba(254, 52, 144, 1.0), rgba(248, 6, 103, 1.0));
+    .button {
+        background: white;
+        color: rgba(254, 52, 144, 1.0);
+    }
+}
+.vk {
+    background: #0079ff;
+    .button {
+        background: white;
+        color: #0079ff;
+    }
+}
