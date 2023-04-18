@@ -1,4 +1,4 @@
-.item-block {
+.mailiq-item-block {
   text-align: center;
   font-family: "PT Sans";
   max-width: 300px;
@@ -6,18 +6,18 @@
   color: white;
   line-height: 26px;
 }
-.item-block-body {
+.mailiq-item-block-body {
   padding: 25px 30px 25px 30px;
 }
-.item-block-head {
+.mailiq-item-block-head {
   font-weight: 700;
   font-size: 26px;
 }
-.item-block-text {
+.mailiq-item-block-text {
   font-size: 18px;
   line-height: 19px;
 }
-.item-block-button {
+.mailiq-item-block-button {
   display: block;
   padding: 14px 0px;
   width: 100%;
@@ -29,7 +29,7 @@
   text-decoration: none;
   font-weight: 700;
 }
-.item-block-button:hover {
+.mailiq-item-block-button:hover {
   box-shadow: -1px 6px 8px 0px rgba(34, 60, 80, 0.2);
 }
 
@@ -57,4 +57,4 @@
 .vk .button {
   background: white;
   color: #0079ff;
-}
+}/*# sourceMappingURL=style.css.map */
